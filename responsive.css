@@ -1,0 +1,23 @@
+@media (max-width: 425px) {
+    .container {
+        max-width: 350px;
+        align-items: center;
+        background-color: #222831;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 350px;
+        align-items: center;
+        background-color: #222831;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 300px;
+        align-items: center;
+    }
+}

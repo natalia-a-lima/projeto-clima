@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Clima</title>
+</head>
+<body>
+    <main class="container">
+        <section class="weather-side">
+            <div class="weather-gradient">
+                <div class="date-container">
+                    <h2 class="date-dayname">Domingo</h2>
+                    <h4 class="date-day">26 Mar 2023</h4>
+                    <img class="location-icon" src="./imagens/map-pin.svg" alt=""><h5 class="location">Paraíba, BR</h5>
+                </div>
+            </div>
+            <div class="weather-container">
+                <img class="weather-icon" src="./imagens/cloud.svg" alt="sol">
+                <h1 class="weather-temp">29°C</h1>
+                <h3 class="weather-desc">Nublado</h3>
+            </div>
+        </section>
+        <section class="info-side">
+            <div class="today-info-container">
+                <div class="today-info">
+                    <div class="precipitation">
+                        <span class="title">CHUVA</span>
+                        <span class="value">70 %</span>
+                    </div>
+                    <br>
+                    <div class="humidity">
+                        <span class="title">UMIDADE</span>
+                        <span class="value">75 %</span>
+                    </div>
+                    <br>
+                    <div class="wind">
+                        <span class="title">VENTO</span>
+                        <span class="value">19 km/h</span>
+                    </div>
+                </div>
+            </div>
+            <div class="week-container">
+                <ul class="week-list">
+                    <li class="active">
+                        <img class="day-icon" src="./imagens/cloud.svg" alt="Dia de Sol">
+                        <span class="day-name">Dom</span>
+                        <span class="day-temp">29°C</span>
+                    </li>
+                    <li class="active">
+                        <img class="day-icon" src="./imagens/sun.svg" alt="Dia Nublado">
+                        <span class="day-name">Seg</span>
+                        <span class="day-temp">31°C</span>
+                    </li>
+                    <li class="active">
+                        <img class="day-icon" src="./imagens/cloud-drizzle.svg" alt="Dia de Chuva">
+                        <span class="day-name">Ter</span>
+                        <span class="day-temp">18°C</span>
+                    </li>
+                    <li class="active">
+                        <img class="day-icon" src="./imagens/cloud.svg" alt="Dia Nublado">
+                        <span class="day-name">Qua</span>
+                        <span class="day-temp">22°C</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="location-container">
+                <button class="location-button"> <img class="map-pin" src="./imagens/map-pin.svg" alt="localização"> Mudar Localização</button>
+            </div>
+    </main>
+</body>
+</html>
